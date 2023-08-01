@@ -1,0 +1,1648 @@
+/* ============================================================= UNIVERSAL CSS ====================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+*{
+    /* overflow:hidden; */
+}
+
+
+
+/* ===============================================================HEADER MENU============================================== */
+
+
+.header1 {
+
+    background-color: black;
+    padding: 10px 10px;
+    color: white;
+}
+
+.header1 i {
+    font-size: 20px;
+    vertical-align: top;
+}
+
+.header2 {
+    float: right;
+    margin-right: 50px;
+    font-size: 15px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.header2 a {
+    color: white;
+    text-decoration: none;
+}
+
+/* ===================================================================NAVBAR======================================================= */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+
+.menu li {
+    padding: 5px 14px;
+}
+
+.menu li:hover {
+
+    background-color: orange;
+    border-radius: 4px;
+}
+
+
+.nav-link {
+    display: flex;
+    gap: 1rem;
+
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+
+
+/* ================================= RESPONSIVE NAVBAR MENU STARTS CHECKBOX HACK===================================================    */
+
+input[type=checkbox] {
+    display: none;
+}
+
+/* ===================================================== HUMBURGER MENU===================================================== */
+
+.humburger {
+    display: none;
+    font-size: 24px;
+}
+
+
+
+/* ==================================================== MAIN 1 PARAGRAPH========================================== */
+
+.main1 {
+    background-image: url('./1.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 550px;
+
+}
+
+.caption-inner {
+
+    width: 50%;
+}
+
+.caption-inner h2 {
+    font-size: 39px;
+    line-height: 50%;
+    font-family: "Verdana";
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 63px;
+    color: #333333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.caption-inner p {
+    font-size: 25px;
+    line-height: 50px;
+    color: #333333;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-family: "vardana";
+    font-weight: 300;
+    margin-bottom: 40px;
+    word-spacing: 6px;
+}
+
+.caption-inner a {
+    font-size: 20px;
+    background-color: red;
+    border-radius: 0 15px 0 15px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 16px 50px;
+}
+
+
+/* ==================================================== BUTTON  ============================================================== */
+
+.button {
+    font-size: 20px;
+    background-color: rgb(10, 74, 98);
+    border-radius: 0 15px 0 15px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 16px 50px;
+
+}
+
+.button:hover {
+    transform: scale(1.2) translateY(10px);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-color: maroon;
+    border-radius: 10px 0 10px 0;
+}
+
+/* ========================================================= ICON  =================================================== */
+
+.icon-inner {
+    display: flex;
+
+}
+
+.i-con1 {
+    background-color: rgba(128, 0, 0, 0.621);
+    background-size: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    font-family: "Verdana";
+    box-sizing: border-box;
+    width: 400px;
+}
+
+
+
+.t1 {
+    font-size: 20px;
+    color: white;
+
+}
+
+.i-con2 {
+    background-color: rgba(66, 8, 66, 0.354);
+    box-sizing: border-box;
+    padding: 50px 30px;
+    width: 400px;
+    text-align: center;
+}
+
+.t2 {
+    font-size: 20px;
+    color: white;
+    margin-left: 40px;
+}
+
+.i-con3 {
+    background-color: rgba(128, 0, 0, 0.621);
+    padding: 50px 30px;
+    font-family: Verdana;
+    box-sizing: border-box;
+    width: 400px;
+    text-align: center;
+}
+
+
+.t3 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.i-con4 {
+    background-color: rgb(66, 8, 66, 0.354);
+    box-sizing: border-box;
+    padding: 50px 30px;
+    width: 400px;
+    font-family: "Verdana";
+    text-align: center;
+}
+
+
+.t4 {
+    font-size: 20px;
+    margin-left: 40px;
+    color: white;
+    text-align: center;
+
+}
+
+/* ================================================ SECTION 4 INTRO ============================================ */
+
+.line {
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    margin-top: 70px;
+    font-size: 50px;
+
+
+}
+
+/* ==================================================== TRAINING IMG =========================================== */
+
+.p-line {
+    font-family: "Verdana";
+}
+
+.p-line {
+
+    font-family: "Verdana";
+
+}
+
+.p-tag img {
+    float: left;
+
+
+}
+
+.p-tag p {
+    padding: 50px 20px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+
+/* ================================================= OUR COURSE ==============================================  */
+
+.our-p {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 2px solid orange;
+    color: aqua;
+    line-height: 100px;
+
+}
+
+/* ==================================================COURSE LIST ============================================= */
+
+.course-inner {
+    display: flex;
+    margin-top: 100px;
+
+
+}
+
+/* ================================================================= */
+
+.course {
+
+    margin: 3%;
+
+
+
+    width: 280px;
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0px 0px 10px #d9d9d9;
+    background-color: rgb(138, 145, 45);
+    margin-bottom: 30px;
+
+
+}
+
+
+.course-img {
+    padding: 60px 100px 52px 100px;
+
+
+
+
+
+}
+
+.course-img img {
+    height: 90px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+
+
+.course-p {
+    background-color: #fff;
+    padding: 8px;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+
+
+}
+
+/* ============================================================================================= */
+
+.course1 {
+
+    margin: 3%;
+
+
+
+    width: 280px;
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0px 0px 10px #d9d9d9;
+    background-color: rgb(44, 128, 96);
+
+
+
+}
+
+
+.course-img1 {
+    padding: 80px 100px 70px 90px;
+
+
+
+
+
+}
+
+.course-img1 img {
+    height: 50px;
+    text-align: center;
+
+}
+
+
+
+.course-p1 {
+    background-color: #fff;
+    padding: 8px;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+
+
+}
+
+
+/* ========================================================================= */
+
+.course2 {
+
+    margin: 3%;
+
+
+
+    width: 280px;
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0px 0px 10px #d9d9d9;
+    background-color: rgb(44, 128, 96);
+
+}
+
+
+.course-img2 {
+    padding: 60px 100px 43px 110px;
+
+
+
+
+
+}
+
+.course-img-2 img {
+    height: 95px;
+    text-align: center;
+
+}
+
+
+
+.course-p2 {
+    background-color: #fff;
+    padding: 8px;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+
+
+}
+
+/* ================================================================ */
+
+.course3 {
+    margin: 3%;
+
+
+
+    width: 280px;
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0px 0px 10px #d9d9d9;
+    background-color: rgb(44, 128, 96);
+
+}
+
+.course-img3 {
+    padding: 60px 100px 45px 100px;
+
+
+}
+
+.course-img3 img {
+    height: 95px;
+    text-align: center;
+
+}
+
+
+
+.course-p3 {
+    background-color: #fff;
+    padding: 8px;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+
+
+}
+
+
+
+
+/* <!-- ========================================== course line 2 =============================================== --> */
+
+.course-inner-0 {
+    display: flex;
+    margin-top: 20px;
+
+
+
+}
+
+/* ======================================================================= */
+
+
+.course-line-0 {
+
+    margin: 3%;
+
+
+
+    width: 280px;
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0px 0px 10px #d9d9d9;
+    background-color: rgb(138, 145, 45);
+
+
+}
+
+
+.course-img-0 {
+    padding: 60px 100px 52px 100px;
+
+
+
+
+
+}
+
+.course-img-0 img {
+    height: 90px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+
+
+.course-p-0 {
+    background-color: #fff;
+    padding: 8px;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+
+
+}
+
+/* ============================================================================================= */
+
+.course-line-1 {
+
+    margin: 3%;
+
+
+
+    width: 280px;
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0px 0px 10px #d9d9d9;
+    background-color: rgb(44, 128, 96);
+
+
+}
+
+
+.course-img-1 {
+    padding: 60px 100px 52px 100px;
+
+
+
+
+
+}
+
+.course-img-1 img {
+    height: 90px;
+    text-align: center;
+
+}
+
+
+
+.course-p-1 {
+    background-color: #fff;
+    padding: 8px;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+
+
+}
+
+
+/* ========================================================================= */
+
+.course-line-2 {
+
+    margin: 3%;
+
+
+
+    width: 280px;
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0px 0px 10px #d9d9d9;
+    background-color: rgb(223, 115, 91);
+
+
+}
+
+
+.course-img-2 {
+    padding: 60px 100px 52px 90px;
+
+
+
+
+
+}
+
+.course-img-2 img {
+    height: 90px;
+    text-align: center;
+
+}
+
+
+
+.course-p-2 {
+    background-color: #fff;
+    padding: 8px;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+
+
+}
+
+/* ================================================================ */
+
+
+.course-line-3 {
+
+    margin: 3%;
+
+
+
+    width: 280px;
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0px 0px 10px #d9d9d9;
+    background-color: rgb(161, 98, 140);
+
+
+}
+
+
+.course-img-3 {
+    padding: 60px 100px 52px 80px;
+
+
+
+
+
+}
+
+.course-img-3 img {
+    height: 90px;
+    text-align: center;
+
+}
+
+
+
+.course-p-3 {
+    background-color: #fff;
+    padding: 8px;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+
+
+}
+
+/* ================================================== course line 3 =========================================== */
+
+
+.course1-inner-1 {
+    display: flex;
+    margin-top: 20px;
+
+
+}
+
+/* ===================================================== */
+
+.course1-line-1 {
+
+    margin: 3%;
+
+
+    width: 280px;
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0px 0px 10px #d9d9d9;
+    background-color: rgb(84, 32, 32);
+
+
+}
+
+
+.course1-img-1 {
+    padding: 60px 100px 52px 100px;
+
+
+
+
+
+}
+
+.course1-img-1 img {
+    height: 90px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+
+
+.course1-p-1 {
+    background-color: #fff;
+    padding: 8px;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+
+
+}
+
+/* ======================================================================== */
+
+.course1-line-2 {
+
+    margin: 3%;
+
+
+
+    width: 280px;
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0px 0px 10px #d9d9d9;
+    background-color: rgb(42, 69, 67);
+
+
+}
+
+
+.course1-img-2 {
+    padding: 60px 100px 52px 100px;
+
+
+
+
+
+}
+
+.course1-img-2 img {
+    height: 90px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+
+
+.course1-p-2 {
+    background-color: #fff;
+    padding: 8px;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+
+
+}
+
+/* ======================================================================= */
+
+.course1-line-3 {
+
+    margin: 3%;
+
+
+
+    width: 280px;
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0px 0px 10px #d9d9d9;
+    background-color: rgb(78, 108, 130);
+
+
+}
+
+
+.course1-img-3 {
+    padding: 60px 100px 52px 100px;
+
+
+
+
+
+}
+
+.course1-img-3 img {
+    height: 90px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+
+
+.course1-p-3 {
+    background-color: #fff;
+    padding: 8px;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+
+
+}
+
+/* ==================================================================== */
+
+.course1-line-4 {
+
+    margin: 3%;
+
+
+
+    width: 280px;
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0px 0px 10px #d9d9d9;
+    background-color: rgb(90, 32, 97);
+
+
+}
+
+
+.course1-img-4 {
+    padding: 60px 100px 52px 90px;
+
+
+
+
+
+}
+
+.course1-img-4 img {
+    height: 90px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+
+
+.course1-p-4 {
+    background-color: #fff;
+    padding: 8px;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+
+
+}
+
+/* ==================================== LIVE PROJECT TRAINING ======================================== */
+
+.mainline {
+    background-image: url('training-bg.jpg');
+    background-size: cover;
+}
+
+.pline {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-transform: uppercase;
+    border-bottom: 3px solid white;
+    line-height: 100px;
+    color: #fff;
+
+
+}
+
+.pline:hover {
+    color: rgb(223, 115, 91);
+}
+
+/* =============================================== */
+.pline2 {
+    text-align: center;
+    font-family: Verdana;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+
+
+}
+
+/* ======================================================================= */
+
+.pline3 {
+    text-align: center;
+    margin: 30px 100px 50px 100px;
+    font-size: 15px;
+    color: #fff;
+
+
+}
+
+/* ================================================================= */
+.picon {
+    display: flex;
+
+}
+
+.pimges1 {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 100%;
+    margin-left: 50px;
+
+
+    margin-bottom: 100px;
+    text-align: center;
+
+
+}
+
+.pimges1:hover {
+    border: 2px solid rgb(255, 21, 0);
+    background-color: rgba(0, 12, 5, 0.7);
+}
+
+.pimges1 img {
+    padding-bottom: 20px;
+    padding-top: 50px;
+    height: 100px;
+}
+
+.pimges1 p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 50px;
+
+}
+
+/* ===================================================================== */
+.pimges2 {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 100%;
+    margin-left: 20px;
+
+    margin-bottom: 100px;
+    text-align: center;
+
+
+}
+
+.pimges2:hover {
+    border: 2px solid red;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+.pimges2 img {
+    padding-bottom: 20px;
+    padding-top: 50px;
+    height: 100px;
+}
+
+.pimges2 p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 50px;
+
+}
+
+/* ===================================================================== */
+
+.pimges3 {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 100%;
+    margin-left: 20px;
+
+    margin-bottom: 100px;
+    text-align: center;
+
+
+}
+
+.pimges3:hover {
+    border: 2px solid red;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+.pimges3 img {
+    padding-bottom: 20px;
+    padding-top: 50px;
+    height: 100px;
+}
+
+.pimges3 p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 50px;
+
+}
+
+/* ================================================================= */
+
+.pimges4 {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 100%;
+    margin-right: 50px;
+    margin-left: 20px;
+
+
+    margin-bottom: 100px;
+    text-align: center;
+
+
+}
+
+.pimges4:hover {
+    border: 2px solid red;
+    background-color: rgb(0, 0, 0, 0.7);
+
+
+}
+
+.pimges4 img {
+    padding-bottom: 20px;
+    padding-top: 50px;
+    height: 100px;
+}
+
+.pimges4 p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 50px;
+
+}
+
+/* ============================================== WHY REGISTER ================================ */
+
+.whyragister {
+    background-color: rgb(238, 238, 231);
+    padding: 70px 0;
+
+}
+
+
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #d33327;
+    font-family: Verdana;
+    margin: 30px 50px 20px 50px;
+
+
+    font-weight: 300;
+
+}
+
+.title:after {
+    width: 100px;
+    height: 2px;
+    background: #d33327;
+    margin: 10px auto 40px;
+    display: block;
+    content: "";
+}
+
+.maintitle p {
+
+    margin: 10px 80px 20px 80px;
+    font-size: 20px;
+
+}
+
+.register-left-part {
+    margin: 10px 60px 20px 60px;
+    padding: 0 40px;
+
+}
+
+.register li {
+    padding-bottom: 10px;
+    font-size: 19px;
+}
+
+.whyragister p {
+
+    margin: 10px 80px 20px 80px;
+    font-size: 20px;
+
+}
+
+
+
+
+
+/* ================================================== OUR BLOG ====================================== */
+
+.blog-p {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: 500;
+    color: red;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.blog-p:after {
+    width: 100px;
+    height: 2px;
+    background: #d33327;
+    margin: 10px auto 40px;
+    display: block;
+    content: "";
+}
+
+
+/* ================================= blog section ===================================== */
+.blog1 {
+    display: inline-block;
+}
+
+
+
+
+.lazyy {
+    width: 400px;
+    height: 270px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.blog-image1 {
+    /* transition: 7s; */
+    overflow: hidden;
+}
+
+
+.btn-sec {
+    margin-left: 130px;
+    /* padding-top: 0%; */
+    margin-top: -13px;
+    margin-bottom: 20px;
+
+
+
+
+
+
+}
+
+.btn-sec a {
+    text-decoration: none;
+    border: 2px solid red;
+    padding: 5px 20px 5px 20px;
+    font-size: 17px;
+    color: white;
+    background-color: #d33327;
+    border-radius: 7px;
+    z-index: 1;
+
+}
+
+.blog-title {
+    padding-left: 110px;
+    font-size: 24px;
+    margin-bottom: 12px;
+    min-height: 60px;
+    color: #000;
+    font-family: "Proxima Nova Lt";
+    font-weight: 600;
+    line-height: 30px;
+
+}
+
+
+
+.blog-title a {
+    text-decoration: none;
+    color: #000;
+
+
+
+}
+
+.blog-title a:hover {
+    text-decoration: none;
+    color: red;
+
+
+
+}
+
+
+/* =====================================blog2===================================== */
+
+
+.blog2 {
+    display: inline-block;
+}
+
+
+
+.lazyy1 {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.btn-sec1 {
+    margin-left: 30px;
+    padding-top: 0%;
+    margin-top: -13px;
+    margin-bottom: 90px;
+}
+
+.btn-sec1 a {
+    text-decoration: none;
+    border: 2px solid red;
+    padding: 5px 20px 5px 20px;
+    font-size: 17px;
+    color: white;
+    background-color: #d33327;
+    border-radius: 7px;
+
+}
+
+.blog-title1 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    min-height: 60px;
+    color: #000;
+    font-family: "Proxima Nova Lt";
+    font-weight: 600;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-top: 0;
+}
+
+.blog-title1 a {
+    text-decoration: none;
+    color: #000;
+}
+
+.blog-title1 a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+/* ================================= BLOG 3 ======================== */
+
+
+.blog3 {
+    display: inline-block;
+}
+
+
+
+
+.lazyy2 {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    /* margin-left: 100px; */
+    margin-top: 30px;
+}
+
+.btn-sec2 {
+    margin-left: 30px;
+    padding-top: 0%;
+    margin-top: -13px;
+    margin-bottom: 60px;
+}
+
+.btn-sec2 a {
+    text-decoration: none;
+    border: 2px solid red;
+    padding: 5px 20px 5px 20px;
+    font-size: 17px;
+    color: white;
+    background-color: #d33327;
+    border-radius: 7px;
+
+}
+
+.blog-title2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    min-height: 60px;
+    color: #000;
+    font-family: "Proxima Nova Lt";
+    font-weight: 600;
+    line-height: 30px;
+    padding: 0px 0px 20px 0px;
+}
+
+.blog-title2 a {
+    text-decoration: none;
+    color: #000;
+}
+
+.blog-title2 a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+
+
+
+
+/* ================================================ REGISTER FORM ================================ */
+
+.register-bottom-section {
+    background: #f8f8f8 url(email-newsletter.jpg) no-repeat right top;
+    padding: 70px 0 0;
+    background-size: 50%;
+}
+
+.register-your-self {
+    font-size: 35px;
+    margin-left: 150px;
+    margin-bottom: 50px
+}
+
+
+/* ================================================================ */
+
+.tname {
+
+    margin-left: 150px;
+    margin-top: 20px;
+    
+}
+
+input {
+    width: 545px;
+    padding: 12px 10px;
+    margin: 8px 0;
+    font-size: 19px;
+    outline: none;
+
+    border: none;
+    border-bottom: 2px solid gray;
+    background-color: #f8f8f8;
+}
+
+.temail {
+    margin-left: 150px;
+    margin-top: 20px;
+
+
+}
+
+input[type=email] {
+    width: 20%;
+
+    outline: none;
+
+}
+
+input[type=tel] {
+    width: 17%;
+    outline: none;
+    margin-left: 10px;
+
+}
+
+select {
+    width: 561px;
+    padding: 12px 10px;
+    margin: 8px 0;
+    font-size: 19px;
+    outline: none;
+    background-color: #f8f8f8;
+    border: none;
+    border-bottom: 2px solid gray;
+    color: #6a6969;
+}
+
+.tselect {
+    margin-left: 150px;
+    margin-top: 20px;
+
+}
+
+input[type=submit] {
+    width: 10%;
+    padding: 10px 10px;
+    color: white;
+    margin-left: 150px;
+    margin-top: 30px;
+    border: 2px solid green;
+    border: none;
+    border-bottom: 2px solid gray;
+    background-color: rgb(195, 38, 38);
+    border-radius: 0 15px 0 15px;
+    margin-bottom: 30px;
+
+}
+
+input[type=submit]:hover {
+    background-color: blueviolet;
+    border-radius: 15px 0 15px 0;
+}
+
+/* =================================================== FOOTER  ==================================== */
+
+.common-footer {
+    background-color: #161b31;
+    width: 100%;
+}
+
+.footer {
+
+    padding: 40px 0 20px;
+}
+
+.footer-title {
+    font-size: 20px;
+    color: white;
+    font-family: Proxima Nova Rg;
+    font-weight: normal;
+    padding: 40px 10px 10px 90px;
+}
+
+.footer-title:after {
+    width: 100px;
+    height: 3px;
+    background: #d33327;
+    margin: 10px 10px;
+    display: block;
+    content: "";
+}
+
+.footer-menu {
+    margin-top: 0;
+    font-size: 15px;
+}
+
+.footer-menubox {
+    width: 70%;
+    list-style: none;
+    padding: 10px 0px 85px 90px;
+}
+
+.footer-menubox li a:hover {
+    color: #d33327;
+}
+
+.footer-menubox li {
+    padding-bottom: 20px;
+}
+
+.footer-menubox li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* ============================ *** ================================ */
+
+.footer-menubox1 {
+    padding-left: 20px;
+    padding-top: 10px;
+    list-style: none;
+}
+
+.footer-menubox1 li a:hover {
+    color: #d33327;
+}
+
+.footer-menubox1 li {
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+.footer-menubox1 li a {
+    text-decoration: none;
+    color: white;
+}
+
+.li1 {
+    list-style: none;
+}
+
+/* ================================ *** ============================ */
+
+.footer-menubox2 {
+    justify-content: space-between;
+    padding: 30px;
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.footer-menubox2 li a:hover {
+    color: #d33327;
+}
+
+.footer-menubox2 li {
+    padding-bottom: 20px;
+
+}
+
+.footer-menubox2 li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* ================================= *** =========================== */
+
+.footer-menu {
+    display: flex;
+}
+
+.footer-quick-title {
+    font-size: 20px;
+    color: white;
+    font-family: "Proxima Nova Rg";
+    font-weight: normal;
+    padding: 40px 10px 75px 10px;
+}
+
+
+.footer-quick-title:after {
+    width: 90px;
+    height: 3px;
+    background: #d33327;
+    margin: 10px 10px;
+    display: block;
+    content: "";
+}
+
+.foo-link {
+    padding: 30px;
+    list-style: none;
+    padding-top: 10px;
+    width: 60%;
+    padding: 10px 10px 20px 10px;
+    margin-bottom: 187px;
+    margin-left: 10px;
+}
+
+.foo-link li {
+    padding-bottom: 20px;
+
+}
+
+.foo-link a {
+    text-decoration: none;
+    color: rgb(246, 242, 242);
+    font-size: 15px;
+}
+
+/* ===================== */
+.bottom-logo {
+
+    padding: 30px 30px 0px 50px;
+
+
+
+}
+
+.bottom-logo::after {
+    width: 300px;
+    height: 1px;
+    background: #4e4e4e;
+    margin: 50px 10px;
+    display: block;
+    content: "";
+
+}
+
+.footer-quick-titile1 {
+
+    font-size: 20px;
+    color: white;
+    font-family: "Proxima Nova Rg";
+    font-weight: normal;
+    padding: 0px 10px 8px 10px;
+
+}
+
+.footer-quick-titile1:after {
+    width: 90px;
+    height: 3px;
+    background: #d33327;
+    margin: 10px 10px;
+    display: block;
+    content: "";
+}
+
+
+.footer-adress {
+    padding: 10px 0px 10px 20px;
+    margin-bottom: 110px;
+
+
+
+}
+
+.footer-adress i {
+    font-size: 28px;
+    vertical-align: top;
+    padding-right: 10px;
+}
+
+.footer-adress p {
+    font-size: 18px;
+    color: white;
+    padding-bottom: 40px;
+
+    width: 95%;
+
+}
+
+.footer-quick {
+    float: left;
+    background: #161b31;
+
+}
